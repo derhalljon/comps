@@ -3,25 +3,25 @@ import Button from "./Button";
 function App() {
     return <div>
         <div>
-            <Button primary>Button Cheese</Button>
+            <Button primary>Button One</Button>
         </div>
         <div>
-            <Button>Cheese Button</Button>
+            <Button>Button Two</Button>
         </div>
         <div>
-            <Button>Ribs</Button>
+            <Button>Button Three</Button>
         </div>
         <div>
-            <Button>Chocolate</Button>
+            <Button>Button Four</Button>
         </div>
         <div>
-            <Button>Sweetcorn</Button>
+            <Button>Button Five</Button>
         </div>
         <div>
-            <Button>Churros</Button>
+            <Button>Button Six</Button>
         </div>
         <div>
-            <Button>A small piece of potato</Button>
+            <Button>Button Seven</Button>
         </div>
     </div>;
 
