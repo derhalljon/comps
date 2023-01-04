@@ -1,29 +1,50 @@
+import { RiBuilding3Fill, RiHomeSmileLine, RiAttachmentLine, RiCopyrightFill } from "react-icons/ri";
 import Button from "./Button";
 
 function App() {
-    return <div>
+    return (
         <div>
-            <Button primary>Button One</Button>
+            <div>
+                <Button primary>
+                    <RiHomeSmileLine />
+                    Button One
+                </Button>
+            </div>
+            <div>
+                <Button secondary outline>
+                    <RiBuilding3Fill />
+                    Button Two
+                </Button>
+            </div>
+            <div>
+                <Button success rounded>
+                    <RiAttachmentLine />
+                    Button Three
+                </Button>
+            </div>
+            <div>
+                <Button warning outline rounded>
+                    <RiCopyrightFill />
+                    Button Four
+                </Button>
+            </div>
+            <div>
+                <Button danger>
+                    Button Five
+                </Button>
+            </div>
+            <div>
+                <Button rounded>
+                    Button Six
+                </Button>
+            </div>
+            <div>
+                <Button secondary outline>
+                    Button Seven
+                </Button>
+            </div>
         </div>
-        <div>
-            <Button secondary>Button Two</Button>
-        </div>
-        <div>
-            <Button success>Button Three</Button>
-        </div>
-        <div>
-            <Button warning>Button Four</Button>
-        </div>
-        <div>
-            <Button danger>Button Five</Button>
-        </div>
-        <div>
-            <Button rounded>Button Six</Button>
-        </div>
-        <div>
-            <Button secondary outline>Button Seven</Button>
-        </div>
-    </div>;
+    );
 
 }
 
