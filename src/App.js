@@ -6,22 +6,22 @@ function App() {
             <Button primary>Button One</Button>
         </div>
         <div>
-            <Button>Button Two</Button>
+            <Button secondary>Button Two</Button>
         </div>
         <div>
-            <Button>Button Three</Button>
+            <Button success>Button Three</Button>
         </div>
         <div>
-            <Button>Button Four</Button>
+            <Button warning>Button Four</Button>
         </div>
         <div>
-            <Button>Button Five</Button>
+            <Button danger>Button Five</Button>
         </div>
         <div>
-            <Button>Button Six</Button>
+            <Button rounded>Button Six</Button>
         </div>
         <div>
-            <Button>Button Seven</Button>
+            <Button secondary outline>Button Seven</Button>
         </div>
     </div>;
 
