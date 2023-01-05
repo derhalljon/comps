@@ -1,7 +1,7 @@
 import { RiBuilding3Fill, RiHomeSmileLine, RiAttachmentLine, RiCopyrightFill } from "react-icons/ri";
-import Button from "./components/Button";
+import Button from "../components/Button";
 
-function App() {
+function ButtonPage() {
     return (
         <div>
             <div>
@@ -49,4 +49,4 @@ function App() {
 }
 
 
-export default App;
+export default ButtonPage;
